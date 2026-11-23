@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloneX</string>
+    <string name="app_full_title">CloneX – App Cloner</string>
+    <string name="app_tagline">Multiple isolated accounts, one device</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Apps</string>
+    <string name="nav_clones">My Clones</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+    <string name="navigate_back">Navigate back</string>
+
+    <!-- Splash & Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_slide_1_title">Clone Any App Unlimitedly</string>
+    <string name="onboarding_slide_1_desc">Run multiple accounts of your favorite messaging, social, or work apps side by side. Each clone gets a unique identity and separate space.</string>
+    <string name="onboarding_slide_2_title">100% On-Device Privacy</string>
+    <string name="onboarding_slide_2_desc">Every clone stores its data, cache, and login sessions inside an isolated sandbox directory on your phone. Nothing is ever collected or uploaded.</string>
+    <string name="onboarding_slide_3_title">Smart Permissions Only When Needed</string>
+    <string name="onboarding_slide_3_desc">CloneX never asks for unnecessary storage permissions. Notifications or biometrics are only requested when you turn them on for a clone.</string>
+
+    <!-- First-launch Policy Warning -->
+    <string name="terms_warning_title">Responsible Use Notice</string>
+    <string name="terms_warning_body">Please clone only apps you own or have permission to duplicate, and always respect each app\'s Terms of Service. All clone data stays strictly on your device.</string>
+    <string name="terms_warning_accept">I Understand &amp; Continue</string>
+    <string name="terms_warning_privacy_link">Read Privacy Policy</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Installed Apps</string>
+    <string name="home_search_hint">Search apps or packages…</string>
+    <string name="clear_search">Clear search</string>
+    <string name="filter_all">All Apps</string>
+    <string name="filter_user">User Apps</string>
+    <string name="filter_system">System Apps</string>
+    <string name="sort_label">Sort</string>
+    <string name="sort_az">A–Z</string>
+    <string name="sort_recent">Recently Used</string>
+    <string name="sort_most_cloned">Most Cloned</string>
+    <string name="clone_count_badge">%1$d clones</string>
+    <string name="clone_count_single">1 clone</string>
+    <string name="fab_quick_clone">Quick Clone</string>
+    <string name="quick_clone_sheet_title">Pick an App to Clone</string>
+    <string name="apps_loading">Scanning installed apps…</string>
+    <string name="apps_empty_title">No Matching Apps</string>
+    <string name="apps_empty_desc">Try clearing your search query or switching the app filter above.</string>
+    <string name="apps_error_title">Unable to Load Apps</string>
+    <string name="apps_error_retry">Retry</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- App Action Sheet -->
+    <string name="sheet_package_label">Package</string>
+    <string name="sheet_version_label">Version</string>
+    <string name="sheet_type_user">User App</string>
+    <string name="sheet_type_system">System App</string>
+    <string name="sheet_existing_clones">Existing Clones: %1$d</string>
+    <string name="sheet_action_clone">Clone This App</string>
+    <string name="sheet_action_view_clones">View Existing Clones</string>
+    <string name="warning_self_clone">CloneX cannot clone itself.</string>
+    <string name="warning_banking_drm_title">Compatibility Warning</string>
+    <string name="warning_banking_drm_body">Banking, payment, and DRM-protected apps often verify package signatures or Play Integrity and may block cloning or refuse to run inside an isolated container.</string>
+    <string name="warning_limit_reached">Clone limit (%1$d) reached. Increase or remove the limit in Settings to create more clones.</string>
+
+    <!-- Create / Edit Clone Dialog -->
+    <string name="clone_dialog_title">Configure Clone</string>
+    <string name="clone_edit_appearance_title">Customize Badge &amp; Appearance</string>
+    <string name="clone_name_label">Clone Name</string>
+    <string name="clone_name_hint">e.g. AppName 2</string>
+    <string name="clone_name_error_empty">Name cannot be empty.</string>
+    <string name="clone_name_error_length">Name must be between 1 and 30 characters.</string>
+    <string name="clone_name_error_duplicate">A clone with this name already exists.</string>
+    <string name="clone_badge_label_title">Icon Badge Label</string>
+    <string name="clone_badge_label_hint">1–4 chars (e.g. 2, A, WORK)</string>
+    <string name="clone_badge_color_title">Badge Color</string>
+    <string name="clone_option_notifications">Separate Notifications</string>
+    <string name="clone_option_notifications_desc">Show alerts under an isolated notification channel</string>
+    <string name="clone_option_hide_launcher">Hide from Launcher</string>
+    <string name="clone_option_hide_launcher_desc">Only open this clone from inside CloneX</string>
+    <string name="clone_option_lock">PIN / Biometric Lock</string>
+    <string name="clone_option_lock_desc">Require authentication before opening this clone</string>
+    <string name="clone_create_button">Create Clone</string>
+    <string name="clone_save_button">Save Changes</string>
+    <string name="clone_cancel_button">Cancel</string>
+    <string name="clone_created_msg">Clone \"%1$s\" created successfully</string>
+    <string name="clone_updated_msg">Clone updated</string>
+
+    <!-- Notification Permission Rationale -->
+    <string name="perm_notif_title">Notification Permission</string>
+    <string name="perm_notif_desc">Android 13+ requires notification permission so CloneX can deliver isolated alerts and running-status notifications for your clones. You can change this anytime.</string>
+    <string name="perm_notif_allow">Allow Notifications</string>
+    <string name="perm_notif_not_now">Not Now</string>
+    <string name="perm_notif_denied_msg">Notification permission denied. Clones will remain muted until enabled in system settings.</string>
+    <string name="perm_open_settings">Open Settings</string>
+
+    <!-- My Clones Screen -->
+    <string name="clones_title">My Clones</string>
+    <string name="clones_empty_title">No Clones Yet</string>
+    <string name="clones_empty_desc">Tap any app on the Apps tab or press the + button to create your first isolated clone.</string>
+    <string name="clones_go_to_apps">Browse Apps</string>
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="last_used_never">Never opened</string>
+    <string name="last_used_format">Last used: %1$s</string>
+    <string name="storage_size_format">Storage: %1$s</string>
+    <string name="action_open">Open</string>
+    <string name="action_stop">Force Stop</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_customize_badge">Change Icon / Badge</string>
+    <string name="action_pin_shortcut">Add Home Shortcut</string>
+    <string name="action_clear_cache">Clear Cache</string>
+    <string name="action_clear_data">Clear Data</string>
+    <string name="action_export_config">Export Settings</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_details">View Details</string>
+    <string name="action_more_options">More options</string>
+    <string name="selected_count">%1$d selected</string>
+    <string name="batch_stop">Stop Selected</string>
+    <string name="batch_delete">Delete Selected</string>
+    <string name="batch_select_all">Select All</string>
+    <string name="batch_clear_selection">Clear Selection</string>
+
+    <!-- Clone Actions Feedback & Confirmations -->
+    <string name="rename_dialog_title">Rename Clone</string>
+    <string name="delete_confirm_title">Delete Clone?</string>
+    <string name="delete_confirm_body">Deleting \"%1$s\" will permanently remove its isolated data directory and disable its home screen shortcut.</string>
+    <string name="batch_delete_confirm_title">Delete %1$d Clones?</string>
+    <string name="batch_delete_confirm_body">All isolated data directories and shortcuts for the selected clones will be permanently deleted.</string>
+    <string name="clear_data_confirm_title">Clear Clone Data?</string>
+    <string name="clear_data_confirm_body">This will erase login sessions, settings, and local files inside \"%1$s\". The clone itself will remain.</string>
+    <string name="confirm_delete">Delete</string>
+    <string name="confirm_clear">Clear</string>
+    <string name="snackbar_deleted">\"%1$s\" deleted</string>
+    <string name="snackbar_undo">Undo</string>
+    <string name="snackbar_restored">\"%1$s\" restored</string>
+    <string name="snackbar_cache_cleared">Cleared %1$s of cache</string>
+    <string name="snackbar_data_cleared">Clone data cleared</string>
+    <string name="snackbar_stopped">Clone stopped</string>
+    <string name="snackbar_shortcut_requested">Home shortcut added for \"%1$s\"</string>
+    <string name="snackbar_shortcut_unsupported">This launcher does not support pinned shortcuts</string>
+    <string name="snackbar_launched">Launching \"%1$s\" in isolated space…</string>
+    <string name="snackbar_launch_error">Original package %1$s is not installed on this device</string>
+    <string name="sandbox_session_title">Isolated Sandbox Active</string>
+    <string name="sandbox_session_body">\"%1$s\" is running inside its isolated container (%2$s). In production virtualization builds, the virtualized APK launches directly into this sandbox.</string>
+    <string name="sandbox_launch_real_app">Open Host App</string>
+    <string name="sandbox_stop_session">Stop Sandbox</string>
+
+    <!-- Clone Details Screen -->
+    <string name="details_title">Clone Details</string>
+    <string name="details_not_found">Clone not found</string>
+    <string name="details_package">Package Name</string>
+    <string name="details_clone_id">Clone ID (UUID)</string>
+    <string name="details_data_dir">Isolated Directory</string>
+    <string name="details_created_at">Created On</string>
+    <string name="details_last_used">Last Used</string>
+    <string name="details_storage_total">Total Storage</string>
+    <string name="details_storage_data">App Data</string>
+    <string name="details_storage_cache">Cache</string>
+    <string name="details_permissions_title">Granted App Permissions</string>
+    <string name="details_permissions_none">No granted permissions reported for this package.</string>
+    <string name="details_controls_title">Privacy &amp; Controls</string>
+    <string name="details_danger_zone">Maintenance</string>
+
+    <!-- Lock / Authentication -->
+    <string name="lock_title">CloneX Security Lock</string>
+    <string name="lock_subtitle_app">Enter your credentials to unlock CloneX</string>
+    <string name="lock_subtitle_clone">Authenticate to open \"%1$s\"</string>
+    <string name="lock_enter_pin">Enter 4-digit PIN</string>
+    <string name="lock_draw_pattern">Draw unlock pattern</string>
+    <string name="lock_use_biometric">Use Biometric</string>
+    <string name="lock_wrong_pin">Incorrect PIN. Please try again.</string>
+    <string name="lock_wrong_pattern">Incorrect pattern. Please try again.</string>
+    <string name="lock_biometric_title">Unlock with Biometric</string>
+    <string name="lock_biometric_subtitle">Verify your identity to continue</string>
+    <string name="lock_biometric_cancel">Use PIN / Pattern</string>
+    <string name="lock_setup_pin_title">Set 4-Digit PIN</string>
+    <string name="lock_setup_pin_hint">Enter 4 digits</string>
+    <string name="lock_setup_pattern_title">Draw New Pattern (4+ dots)</string>
+    <string name="lock_setup_pattern_too_short">Connect at least 4 dots</string>
+    <string name="lock_saved">Security credential updated</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_general">Appearance &amp; Language</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+    <string name="lang_english">English</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Material You Dynamic Color</string>
+    <string name="settings_dynamic_color_desc">Adapt colors from your wallpaper (Android 12+)</string>
+
+    <string name="settings_section_security">Security &amp; Lock</string>
+    <string name="settings_app_lock">App Lock</string>
+    <string name="settings_app_lock_desc">Protect CloneX with PIN, pattern, or biometric</string>
+    <string name="settings_lock_method">Lock Method</string>
+    <string name="lock_method_pin">PIN</string>
+    <string name="lock_method_pattern">Pattern</string>
+    <string name="lock_method_biometric">Biometric</string>
+    <string name="settings_configure_credential">Set / Change PIN or Pattern</string>
+    <string name="settings_auto_lock">Auto-Lock Timeout</string>
+    <string name="auto_lock_immediate">Immediately</string>
+    <string name="auto_lock_30s">30 seconds</string>
+    <string name="auto_lock_1m">1 minute</string>
+    <string name="auto_lock_5m">5 minutes</string>
+    <string name="settings_default_clone_lock">Default Lock for New Clones</string>
+    <string name="settings_default_clone_lock_desc">Automatically lock newly created clones</string>
+
+    <string name="settings_section_cloning">Cloning &amp; Notifications</string>
+    <string name="settings_master_notifications">Master Clone Notifications</string>
+    <string name="settings_master_notifications_desc">Allow notifications across all clones</string>
+    <string name="settings_name_format">Clone Naming Format</string>
+    <string name="settings_name_format_desc">Use {name} and {n} placeholders (currently: %1$s)</string>
+    <string name="settings_clone_limit">Clone Limit</string>
+    <string name="clone_limit_unlimited">Unlimited</string>
+    <string name="clone_limit_custom">Up to %1$d clones</string>
+    <string name="settings_default_badge_style">Default Badge Style</string>
+    <string name="badge_style_corner">Corner Pill</string>
+    <string name="badge_style_circle">Circle Dot</string>
+    <string name="badge_style_ribbon">Top Ribbon</string>
+    <string name="settings_auto_start">Auto-Start Clones on Boot</string>
+    <string name="settings_auto_start_desc">Restore active clones when your phone restarts</string>
+    <string name="settings_battery_guide">Battery Optimization Guide</string>
+    <string name="settings_battery_guide_desc">Keep cloned messaging apps receiving alerts reliably</string>
+
+    <string name="settings_section_storage">Storage &amp; Backup</string>
+    <string name="settings_total_storage">Total Clone Storage Used: %1$s</string>
+    <string name="settings_clear_all_cache">Clear All Cache</string>
+    <string name="settings_clear_all_data">Clear All Clone Data</string>
+    <string name="settings_clear_all_data_confirm">This will erase isolated data for all clones while keeping the clones listed. Continue?</string>
+    <string name="settings_export_backup">Export Clones Backup (JSON)</string>
+    <string name="settings_import_backup">Import Clones Backup (JSON)</string>
+    <string name="backup_export_success">Backup exported (%1$d clones)</string>
+    <string name="backup_import_success">Imported %1$d clones</string>
+    <string name="backup_error">Could not process backup file</string>
+
+    <string name="settings_section_privacy_reset">Privacy &amp; Reset</string>
+    <string name="settings_analytics">Local Diagnostics &amp; Crash Log</string>
+    <string name="settings_analytics_desc">Disabled by default. Never uploaded off-device.</string>
+    <string name="settings_reset_app">Reset CloneX</string>
+    <string name="settings_reset_app_desc">Delete all clones, data directories, and preferences</string>
+    <string name="reset_confirm_title">Reset Entire App?</string>
+    <string name="reset_confirm_body">This will permanently erase all clones, their isolated directories, and reset every CloneX setting back to defaults.</string>
+    <string name="reset_done">CloneX has been reset</string>
+
+    <string name="settings_section_info">App Info &amp; Support</string>
+    <string name="settings_about_faq">About, FAQ &amp; Privacy Policy</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_licenses">Open Source Licenses</string>
+    <string name="settings_rate_app">Rate CloneX</string>
+    <string name="settings_share_app">Share CloneX</string>
+    <string name="settings_contact_support">Contact Support</string>
+    <string name="share_app_text">Check out CloneX – App Cloner to run multiple isolated app accounts safely on one device!</string>
+    <string name="rate_dialog_title">Enjoying CloneX?</string>
+    <string name="rate_dialog_body">Thank you for using CloneX! Your feedback helps us improve isolated cloning and Bengali/English support.</string>
+    <string name="rate_dialog_thanks">Thanks for your feedback!</string>
+
+    <!-- Battery Guide Dialog -->
+    <string name="battery_guide_title">Battery Optimization Guide</string>
+    <string name="battery_guide_body">Some OEM Android skins aggressively pause background tasks. To make sure cloned messaging or email apps deliver notifications reliably:\n\n1. Open System Battery Settings below.\n2. Locate CloneX in the app list.\n3. Choose \"Unrestricted\" or \"Don\'t optimize\".\n\nCloneX only keeps active clones running when needed.</string>
+    <string name="battery_open_system">Open Battery Settings</string>
+
+    <!-- About / FAQ / Privacy Policy -->
+    <string name="about_title">About &amp; Help</string>
+    <string name="about_tab_overview">About</string>
+    <string name="about_tab_faq">FAQ</string>
+    <string name="about_tab_privacy">Privacy Policy</string>
+    <string name="about_description">CloneX lets you organize and run multiple isolated instances of your installed apps on Android. Every clone maintains its own UUID, sandboxed storage directory, notification controls, and optional security lock.</string>
+    <string name="about_engine_note">Cloning Engine Status: Modular CloneEngine architecture ready for local sandbox &amp; virtualization backend integration.</string>
+
+    <string name="faq_q1">How does each clone stay separate?</string>
+    <string name="faq_a1">Every clone receives a unique UUID and an isolated storage directory (data and cache) so logins, preferences, and temporary files never collide with the original app or other clones.</string>
+    <string name="faq_q2">Why do banking or payment apps show a warning?</string>
+    <string name="faq_a2">Financial, UPI/wallet, and DRM streaming apps enforce strict signature and Play Integrity checks for security. They may refuse to open inside virtualized environments.</string>
+    <string name="faq_q3">Does CloneX upload my data to any server?</string>
+    <string name="faq_a3">No. CloneX works 100% offline on your device. Your clone list, settings, and app data never leave your phone.</string>
+    <string name="faq_q4">How do I back up my clone configurations?</string>
+    <string name="faq_a4">Go to Settings → Export Clones Backup (JSON) to save your clone metadata locally using Android\'s file picker, and import it anytime.</string>
+    <string name="faq_q5">Why can\'t I clone CloneX itself?</string>
+    <string name="faq_a5">Self-cloning can cause recursive sandbox loops and conflicting lock states, so CloneX prevents cloning its own package.</string>
+
+    <string name="privacy_policy_title">CloneX Privacy Policy</string>
+    <string name="privacy_policy_body">Effective Date: November 2026\n\n1. Zero Data Collection\nCloneX does not collect, transmit, sell, or share any personal data, installed app lists, usage logs, or clone contents with external servers.\n\n2. Local-Only Storage\nAll clone metadata is stored locally in an on-device Room SQLite database. Preferences and lock settings are stored in Jetpack DataStore. Isolated directories reside within your device\'s private app storage.\n\n3. Minimal Permissions\n• Installed Apps Query: Used strictly on-device via standard launcher intent queries to list apps you can clone.\n• Notifications (Android 13+): Requested only after an explanation screen if you enable clone notifications.\n• Boot Completed: Used only if you enable auto-start clones on boot.\n\n4. Full User Control\nYou can clear cache, wipe clone data, export backups, or reset the entire application at any time from Settings.</string>
+
+    <!-- Back Exit Confirmation -->
+    <string name="exit_confirm_title">Exit CloneX?</string>
+    <string name="exit_confirm_body">Are you sure you want to close CloneX?</string>
+    <string name="exit_confirm_yes">Exit</string>
+    <string name="exit_confirm_no">Stay</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloneX</string>
+    <string name="app_full_title">CloneX – অ্যাপ ক্লোনার</string>
+    <string name="app_tagline">একই ফোনে একাধিক আলাদা অ্যাকাউন্ট</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">অ্যাপস</string>
+    <string name="nav_clones">আমার ক্লোন</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="nav_about">সম্পর্কে</string>
+    <string name="navigate_back">পিছনে যান</string>
+
+    <!-- Splash & Onboarding -->
+    <string name="onboarding_skip">স্কিপ করুন</string>
+    <string name="onboarding_next">পরবর্তী</string>
+    <string name="onboarding_get_started">শুরু করুন</string>
+    <string name="onboarding_slide_1_title">যেকোনো অ্যাপ যতবার খুশি ক্লোন করুন</string>
+    <string name="onboarding_slide_1_desc">একই মেসেজিং, সোশ্যাল বা কাজের অ্যাপে একাধিক অ্যাকাউন্ট একসাথে চালান। প্রতিটি ক্লোন পাবে আলাদা পরিচয় ও সুরক্ষিত জায়গা।</string>
+    <string name="onboarding_slide_2_title">১০০% ডিভাইস-ভিত্তিক গোপনীয়তা</string>
+    <string name="onboarding_slide_2_desc">প্রতিটি ক্লোনের ডেটা, ক্যাশ ও লগইন সেশন আপনার ফোনের আলাদা স্যান্ডবক্স ডিরেক্টরিতে থাকবে। কোনো ডেটা সংগ্রহ বা আপলোড করা হয় না।</string>
+    <string name="onboarding_slide_3_title">শুধু প্রয়োজনের সময় পারমিশন</string>
+    <string name="onboarding_slide_3_desc">CloneX কখনো অপ্রয়োজনীয় স্টোরেজ পারমিশন চায় না। নোটিফিকেশন বা লক চালু করলেই কেবল ব্যাখ্যাসহ অনুমতি নেওয়া হবে।</string>
+
+    <!-- First-launch Policy Warning -->
+    <string name="terms_warning_title">দায়িত্বশীল ব্যবহারের নির্দেশনা</string>
+    <string name="terms_warning_body">শুধু নিজের অ্যাপ বা যে অ্যাপে অধিকার আছে সেগুলো ক্লোন করুন এবং প্রতিটি অ্যাপের শর্ত মেনে চলুন। সব ক্লোন ডেটা সম্পূর্ণভাবে আপনার ডিভাইসেই সংরক্ষিত থাকবে।</string>
+    <string name="terms_warning_accept">বুঝেছি ও এগিয়ে যান</string>
+    <string name="terms_warning_privacy_link">গোপনীয়তা নীতি পড়ুন</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">ইনস্টল করা অ্যাপ</string>
+    <string name="home_search_hint">অ্যাপ বা প্যাকেজ খুঁজুন…</string>
+    <string name="clear_search">সার্চ মুছুন</string>
+    <string name="filter_all">সব অ্যাপ</string>
+    <string name="filter_user">ইউজার অ্যাপ</string>
+    <string name="filter_system">সিস্টেম অ্যাপ</string>
+    <string name="sort_label">সাজান</string>
+    <string name="sort_az">A–Z</string>
+    <string name="sort_recent">সম্প্রতি ব্যবহৃত</string>
+    <string name="sort_most_cloned">সবচেয়ে বেশি ক্লোন করা</string>
+    <string name="clone_count_badge">%1$dটি ক্লোন</string>
+    <string name="clone_count_single">১টি ক্লোন</string>
+    <string name="fab_quick_clone">দ্রুত ক্লোন</string>
+    <string name="quick_clone_sheet_title">ক্লোন করার অ্যাপ বাছুন</string>
+    <string name="apps_loading">ইনস্টল করা অ্যাপ খোঁজা হচ্ছে…</string>
+    <string name="apps_empty_title">কোনো অ্যাপ পাওয়া যায়নি</string>
+    <string name="apps_empty_desc">সার্চ লেখাটি মুছে দেখুন অথবা উপরের ফিল্টার বদলান।</string>
+    <string name="apps_error_title">অ্যাপ লোড করা যায়নি</string>
+    <string name="apps_error_retry">আবার চেষ্টা করুন</string>
+    <string name="refresh">রিফ্রেশ</string>
+
+    <!-- App Action Sheet -->
+    <string name="sheet_package_label">প্যাকেজ</string>
+    <string name="sheet_version_label">ভার্সন</string>
+    <string name="sheet_type_user">ইউজার অ্যাপ</string>
+    <string name="sheet_type_system">সিস্টেম অ্যাপ</string>
+    <string name="sheet_existing_clones">বিদ্যমান ক্লোন: %1$dটি</string>
+    <string name="sheet_action_clone">ক্লোন করুন</string>
+    <string name="sheet_action_view_clones">বিদ্যমান ক্লোন দেখুন</string>
+    <string name="warning_self_clone">CloneX নিজেকে ক্লোন করা যাবে না।</string>
+    <string name="warning_banking_drm_title">সামঞ্জস্যতা সতর্কবার্তা</string>
+    <string name="warning_banking_drm_body">ব্যাংকিং, পেমেন্ট বা DRM-সুরক্ষিত অ্যাপগুলো নিরাপত্তার কারণে ক্লোনিং আটকাতে পারে অথবা আলাদা কন্টেইনারে চলতে বাধা দিতে পারে।</string>
+    <string name="warning_limit_reached">ক্লোন সীমা (%1$dটি) পূর্ণ হয়েছে। আরও ক্লোন বানাতে সেটিংস থেকে সীমা বাড়ান বা সীমাহীন করুন।</string>
+
+    <!-- Create / Edit Clone Dialog -->
+    <string name="clone_dialog_title">নতুন ক্লোন তৈরি</string>
+    <string name="clone_edit_appearance_title">আইকন ও ব্যাজ বদলান</string>
+    <string name="clone_name_label">ক্লোনের নাম</string>
+    <string name="clone_name_hint">যেমন: AppName 2</string>
+    <string name="clone_name_error_empty">নাম খালি রাখা যাবে না।</string>
+    <string name="clone_name_error_length">নামের দৈর্ঘ্য ১ থেকে ৩০ অক্ষরের মধ্যে হতে হবে।</string>
+    <string name="clone_name_error_duplicate">এই নামে আগেই একটি ক্লোন রয়েছে।</string>
+    <string name="clone_badge_label_title">আইকন ব্যাজ লেবেল</string>
+    <string name="clone_badge_label_hint">১–৪ অক্ষর (যেমন: 2, A, WORK)</string>
+    <string name="clone_badge_color_title">ব্যাজের রঙ</string>
+    <string name="clone_option_notifications">আলাদা নোটিফিকেশন</string>
+    <string name="clone_option_notifications_desc">প্রতিটি ক্লোনের জন্য আলাদা নোটিফিকেশন চ্যানেল ব্যবহার করুন</string>
+    <string name="clone_option_hide_launcher">লঞ্চার থেকে লুকান</string>
+    <string name="clone_option_hide_launcher_desc">ক্লোনটি শুধু CloneX অ্যাপের ভেতর থেকেই খোলা যাবে</string>
+    <string name="clone_option_lock">PIN / বায়োমেট্রিক লক</string>
+    <string name="clone_option_lock_desc">এই ক্লোনটি খোলার আগে নিরাপত্তা যাচাই চাইবে</string>
+    <string name="clone_create_button">ক্লোন তৈরি করুন</string>
+    <string name="clone_save_button">সংরক্ষণ করুন</string>
+    <string name="clone_cancel_button">বাতিল</string>
+    <string name="clone_created_msg">\"%1$s\" ক্লোন সফলভাবে তৈরি হয়েছে</string>
+    <string name="clone_updated_msg">ক্লোন আপডেট হয়েছে</string>
+
+    <!-- Notification Permission Rationale -->
+    <string name="perm_notif_title">নোটিফিকেশন পারমিশন</string>
+    <string name="perm_notif_desc">Android 13 বা তার উপরের ভার্সনে ক্লোনগুলোর আলাদা নোটিফিকেশন ও চালু থাকার বার্তা দেখানোর জন্য অনুমতি প্রয়োজন। আপনি চাইলে পরে বন্ধ করতে পারবেন।</string>
+    <string name="perm_notif_allow">অনুমতি দিন</string>
+    <string name="perm_notif_not_now">এখন নয়</string>
+    <string name="perm_notif_denied_msg">নোটিফিকেশন অনুমতি পাওয়া যায়নি। সিস্টেম সেটিংস থেকে চালু না করা পর্যন্ত ক্লোন নীরব থাকবে।</string>
+    <string name="perm_open_settings">সেটিংস খুলুন</string>
+
+    <!-- My Clones Screen -->
+    <string name="clones_title">আমার ক্লোন</string>
+    <string name="clones_empty_title">কোনো ক্লোন তৈরি হয়নি</string>
+    <string name="clones_empty_desc">অ্যাপস ট্যাব থেকে যেকোনো অ্যাপে ট্যাপ করুন অথবা নিচের + বাটনে চাপ দিয়ে প্রথম ক্লোন তৈরি করুন।</string>
+    <string name="clones_go_to_apps">অ্যাপ তালিকা দেখুন</string>
+    <string name="status_running">চলছে</string>
+    <string name="status_stopped">বন্ধ</string>
+    <string name="last_used_never">এখনো খোলা হয়নি</string>
+    <string name="last_used_format">শেষ ব্যবহার: %1$s</string>
+    <string name="storage_size_format">স্টোরেজ: %1$s</string>
+    <string name="action_open">খুলুন</string>
+    <string name="action_stop">জোর করে বন্ধ করুন</string>
+    <string name="action_rename">নাম বদলান</string>
+    <string name="action_customize_badge">আইকন/ব্যাজ বদলান</string>
+    <string name="action_pin_shortcut">হোম স্ক্রিনে শর্টকাট</string>
+    <string name="action_clear_cache">ক্যাশ মোছুন</string>
+    <string name="action_clear_data">ডেটা মোছুন</string>
+    <string name="action_export_config">সেটিংস এক্সপোর্ট</string>
+    <string name="action_delete">ডিলিট</string>
+    <string name="action_details">বিস্তারিত দেখুন</string>
+    <string name="action_more_options">আরও অপশন</string>
+    <string name="selected_count">%1$dটি নির্বাচিত</string>
+    <string name="batch_stop">নির্বাচিতগুলো বন্ধ করুন</string>
+    <string name="batch_delete">নির্বাচিতগুলো ডিলিট করুন</string>
+    <string name="batch_select_all">সব নির্বাচন করুন</string>
+    <string name="batch_clear_selection">নির্বাচন বাতিল</string>
+
+    <!-- Clone Actions Feedback & Confirmations -->
+    <string name="rename_dialog_title">ক্লোনের নাম বদলান</string>
+    <string name="delete_confirm_title">ক্লোন ডিলিট করবেন?</string>
+    <string name="delete_confirm_body">\"%1$s\" ডিলিট করলে এর আলাদা ডেটা ডিরেক্টরি ও হোম স্ক্রিনের শর্টকাট স্থায়ীভাবে মুছে যাবে।</string>
+    <string name="batch_delete_confirm_title">%1$dটি ক্লোন ডিলিট করবেন?</string>
+    <string name="batch_delete_confirm_body">নির্বাচিত সব ক্লোনের আলাদা ডেটা ও শর্টকাট স্থায়ীভাবে মুছে যাবে।</string>
+    <string name="clear_data_confirm_title">ক্লোনের ডেটা মুছবেন?</string>
+    <string name="clear_data_confirm_body">এতে \"%1$s\"-এর লগইন সেশন, সেটিংস ও স্থানীয় ফাইল মুছে যাবে, তবে ক্লোনটি তালিকায় থাকবে।</string>
+    <string name="confirm_delete">ডিলিট করুন</string>
+    <string name="confirm_clear">মুছুন</string>
+    <string name="snackbar_deleted">\"%1$s\" ডিলিট করা হয়েছে</string>
+    <string name="snackbar_undo">Undo</string>
+    <string name="snackbar_restored">\"%1$s\" ফিরিয়ে আনা হয়েছে</string>
+    <string name="snackbar_cache_cleared">%1$s ক্যাশ মোছা হয়েছে</string>
+    <string name="snackbar_data_cleared">ক্লোনের ডেটা মোছা হয়েছে</string>
+    <string name="snackbar_stopped">ক্লোন বন্ধ করা হয়েছে</string>
+    <string name="snackbar_shortcut_requested">\"%1$s\"-এর শর্টকাট হোম স্ক্রিনে যোগ হয়েছে</string>
+    <string name="snackbar_shortcut_unsupported">এই লঞ্চার পিন করা শর্টকাট সমর্থন করে না</string>
+    <string name="snackbar_launched">আলাদা স্যান্ডবক্সে \"%1$s\" চালু হচ্ছে…</string>
+    <string name="snackbar_launch_error">মূল প্যাকেজ %1$s এই ডিভাইসে ইনস্টল নেই</string>
+    <string name="sandbox_session_title">সুরক্ষিত স্যান্ডবক্স চালু রয়েছে</string>
+    <string name="sandbox_session_body">\"%1$s\" এখন তার আলাদা ডিরেক্টরিতে (%2$s) সক্রিয় আছে। পূর্ণ ভার্চুয়ালাইজেশন ইঞ্জিন যুক্ত করলে ক্লোনকৃত APK সরাসরি এখানে চালু হবে।</string>
+    <string name="sandbox_launch_real_app">মূল অ্যাপ খুলুন</string>
+    <string name="sandbox_stop_session">স্যান্ডবক্স বন্ধ করুন</string>
+
+    <!-- Clone Details Screen -->
+    <string name="details_title">ক্লোনের বিস্তারিত</string>
+    <string name="details_not_found">ক্লোন পাওয়া যায়নি</string>
+    <string name="details_package">প্যাকেজ নাম</string>
+    <string name="details_clone_id">ক্লোন আইডি (UUID)</string>
+    <string name="details_data_dir">আলাদা ডেটা ডিরেক্টরি</string>
+    <string name="details_created_at">তৈরির তারিখ</string>
+    <string name="details_last_used">শেষ ব্যবহার</string>
+    <string name="details_storage_total">মোট স্টোরেজ</string>
+    <string name="details_storage_data">অ্যাপ ডেটা</string>
+    <string name="details_storage_cache">ক্যাশ</string>
+    <string name="details_permissions_title">দেওয়া পারমিশনসমূহ</string>
+    <string name="details_permissions_none">এই প্যাকেজের জন্য কোনো প্রদত্ত পারমিশন পাওয়া যায়নি।</string>
+    <string name="details_controls_title">গোপনীয়তা ও নিয়ন্ত্রণ</string>
+    <string name="details_danger_zone">রক্ষণাবেক্ষণ</string>
+
+    <!-- Lock / Authentication -->
+    <string name="lock_title">CloneX নিরাপত্তা লক</string>
+    <string name="lock_subtitle_app">CloneX খুলতে নিরাপত্তা কোড দিন</string>
+    <string name="lock_subtitle_clone">\"%1$s\" খুলতে যাচাই করুন</string>
+    <string name="lock_enter_pin">৪-অঙ্কের PIN দিন</string>
+    <string name="lock_draw_pattern">আনলক প্যাটার্ন আঁকুন</string>
+    <string name="lock_use_biometric">বায়োমেট্রিক ব্যবহার করুন</string>
+    <string name="lock_wrong_pin">ভুল PIN। আবার চেষ্টা করুন।</string>
+    <string name="lock_wrong_pattern">ভুল প্যাটার্ন। আবার চেষ্টা করুন।</string>
+    <string name="lock_biometric_title">বায়োমেট্রিক দিয়ে খুলুন</string>
+    <string name="lock_biometric_subtitle">এগিয়ে যেতে আপনার পরিচয় নিশ্চিত করুন</string>
+    <string name="lock_biometric_cancel">PIN / প্যাটার্ন ব্যবহার করুন</string>
+    <string name="lock_setup_pin_title">৪-অঙ্কের নতুন PIN সেট করুন</string>
+    <string name="lock_setup_pin_hint">৪টি সংখ্যা দিন</string>
+    <string name="lock_setup_pattern_title">নতুন প্যাটার্ন আঁকুন (কমপক্ষে ৪ বিন্দু)</string>
+    <string name="lock_setup_pattern_too_short">কমপক্ষে ৪টি বিন্দু সংযুক্ত করুন</string>
+    <string name="lock_saved">নিরাপত্তা কোড সংরক্ষণ হয়েছে</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_section_general">ভাষা ও থিম</string>
+    <string name="settings_language">ভাষা</string>
+    <string name="lang_system">সিস্টেম ডিফল্ট</string>
+    <string name="lang_bengali">বাংলা</string>
+    <string name="lang_english">English</string>
+    <string name="settings_theme">থিম</string>
+    <string name="theme_system">সিস্টেম</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="settings_dynamic_color">Material You ডাইনামিক কালার</string>
+    <string name="settings_dynamic_color_desc">ফোনের ওয়ালপেপার অনুযায়ী রঙ বদলাবে (Android 12+)</string>
+
+    <string name="settings_section_security">নিরাপত্তা ও লক</string>
+    <string name="settings_app_lock">অ্যাপ লক</string>
+    <string name="settings_app_lock_desc">PIN, প্যাটার্ন বা বায়োমেট্রিক দিয়ে CloneX সুরক্ষিত রাখুন</string>
+    <string name="settings_lock_method">লকের ধরন</string>
+    <string name="lock_method_pin">PIN</string>
+    <string name="lock_method_pattern">প্যাটার্ন</string>
+    <string name="lock_method_biometric">বায়োমেট্রিক</string>
+    <string name="settings_configure_credential">PIN বা প্যাটার্ন সেট / পরিবর্তন</string>
+    <string name="settings_auto_lock">অটো-লক সময়</string>
+    <string name="auto_lock_immediate">সাথে সাথে</string>
+    <string name="auto_lock_30s">৩০ সেকেন্ড</string>
+    <string name="auto_lock_1m">১ মিনিট</string>
+    <string name="auto_lock_5m">৫ মিনিট</string>
+    <string name="settings_default_clone_lock">নতুন ক্লোনের ডিফল্ট লক</string>
+    <string name="settings_default_clone_lock_desc">নতুন ক্লোন তৈরি হলে স্বয়ংক্রিয়ভাবে লক চালু থাকবে</string>
+
+    <string name="settings_section_cloning">ক্লোনিং ও নোটিফিকেশন</string>
+    <string name="settings_master_notifications">সব ক্লোনের নোটিফিকেশন</string>
+    <string name="settings_master_notifications_desc">একসাথে সব ক্লোনের নোটিফিকেশন চালু বা বন্ধ করুন</string>
+    <string name="settings_name_format">ক্লোনের নামের ফরম্যাট</string>
+    <string name="settings_name_format_desc">{name} ও {n} ব্যবহার করুন (বর্তমান: %1$s)</string>
+    <string name="settings_clone_limit">ক্লোন সীমা</string>
+    <string name="clone_limit_unlimited">সীমাহীন</string>
+    <string name="clone_limit_custom">সর্বোচ্চ %1$dটি ক্লোন</string>
+    <string name="settings_default_badge_style">ডিফল্ট ব্যাজ স্টাইল</string>
+    <string name="badge_style_corner">কর্নার পিল</string>
+    <string name="badge_style_circle">গোল বিন্দু</string>
+    <string name="badge_style_ribbon">উপরের ফিতা</string>
+    <string name="settings_auto_start">ফোন চালু হলে ক্লোন অটো-স্টার্ট</string>
+    <string name="settings_auto_start_desc">ডিভাইস রিস্টার্ট হলে সক্রিয় ক্লোনগুলো আবার চালু হবে</string>
+    <string name="settings_battery_guide">ব্যাটারি অপটিমাইজেশন গাইড</string>
+    <string name="settings_battery_guide_desc">ক্লোন অ্যাপের নোটিফিকেশন নিরবচ্ছিন্ন রাখার নির্দেশিকা</string>
+
+    <string name="settings_section_storage">স্টোরেজ ও ব্যাকআপ</string>
+    <string name="settings_total_storage">মোট ব্যবহৃত স্টোরেজ: %1$s</string>
+    <string name="settings_clear_all_cache">সব ক্যাশ মোছো</string>
+    <string name="settings_clear_all_data">সব ক্লোনের ডেটা মোছো</string>
+    <string name="settings_clear_all_data_confirm">এতে সব ক্লোনের আলাদা ডেটা মুছে যাবে, তবে ক্লোনের তালিকা থাকবে। এগিয়ে যাবেন?</string>
+    <string name="settings_export_backup">ব্যাকআপ এক্সপোর্ট করুন (JSON)</string>
+    <string name="settings_import_backup">ব্যাকআপ ইমপোর্ট করুন (JSON)</string>
+    <string name="backup_export_success">%1$dটি ক্লোনের ব্যাকআপ এক্সপোর্ট হয়েছে</string>
+    <string name="backup_import_success">%1$dটি ক্লোন ইমপোর্ট হয়েছে</string>
+    <string name="backup_error">ব্যাকআপ ফাইলটি পড়া বা লেখা যায়নি</string>
+
+    <string name="settings_section_privacy_reset">গোপনীয়তা ও রিসেট</string>
+    <string name="settings_analytics">স্থানীয় অ্যানালিটিক্স ও ক্র্যাশ রিপোর্ট</string>
+    <string name="settings_analytics_desc">ডিফল্টে বন্ধ থাকে। কোনো তথ্য বাইরে পাঠানো হয় না।</string>
+    <string name="settings_reset_app">অ্যাপ রিসেট</string>
+    <string name="settings_reset_app_desc">সব ক্লোন, ডেটা ডিরেক্টরি ও সেটিংস মুছে ফেলুন</string>
+    <string name="reset_confirm_title">সম্পূর্ণ অ্যাপ রিসেট করবেন?</string>
+    <string name="reset_confirm_body">এতে তৈরি করা সব ক্লোন, তাদের আলাদা ফোল্ডার এবং CloneX-এর সব সেটিংস স্থায়ীভাবে মুছে যাবে।</string>
+    <string name="reset_done">CloneX রিসেট করা হয়েছে</string>
+
+    <string name="settings_section_info">তথ্য ও সহায়তা</string>
+    <string name="settings_about_faq">সম্পর্কে, সাধারণ প্রশ্ন (FAQ) ও গোপনীয়তা নীতি</string>
+    <string name="settings_version">ভার্সন</string>
+    <string name="settings_licenses">ওপেন সোর্স লাইসেন্স</string>
+    <string name="settings_rate_app">রেটিং দিন</string>
+    <string name="settings_share_app">অ্যাপ শেয়ার করুন</string>
+    <string name="settings_contact_support">সাপোর্টে যোগাযোগ</string>
+    <string name="share_app_text">একই ফোনে নিরাপদভাবে একাধিক অ্যাকাউন্ট চালাতে CloneX – অ্যাপ ক্লোনার ব্যবহার করে দেখুন!</string>
+    <string name="rate_dialog_title">CloneX কেমন লাগছে?</string>
+    <string name="rate_dialog_body">CloneX ব্যবহার করার জন্য ধন্যবাদ! আপনার মতামত অ্যাপটিকে আরও উন্নত করতে সাহায্য করে।</string>
+    <string name="rate_dialog_thanks">আপনার মতামতের জন্য ধন্যবাদ!</string>
+
+    <!-- Battery Guide Dialog -->
+    <string name="battery_guide_title">ব্যাটারি অপটিমাইজেশন গাইড</string>
+    <string name="battery_guide_body">অনেক ফোনের সিস্টেম ব্যাকগ্রাউন্ড অ্যাপ বন্ধ করে দেয়। ক্লোন করা মেসেজিং বা ইমেইল অ্যাপের নোটিফিকেশন সময়মতো পেতে:\n\n১. নিচের সিস্টেম ব্যাটারি সেটিংস খুলুন।\n২. তালিকা থেকে CloneX খুঁজে বের করুন।\n৩. \"Unrestricted\" বা \"Don\'t optimize\" নির্বাচন করুন।\n\nCloneX শুধু সক্রিয় ক্লোনের প্রয়োজনেই রিসোর্স ব্যবহার করে।</string>
+    <string name="battery_open_system">ব্যাটারি সেটিংস খুলুন</string>
+
+    <!-- About / FAQ / Privacy Policy -->
+    <string name="about_title">সম্পর্কে ও সাহায্য</string>
+    <string name="about_tab_overview">সম্পর্কে</string>
+    <string name="about_tab_faq">সাধারণ প্রশ্ন (FAQ)</string>
+    <string name="about_tab_privacy">গোপনীয়তা নীতি</string>
+    <string name="about_description">CloneX আপনাকে ফোনে ইনস্টল করা অ্যাপের একাধিক আলাদা সংস্করণ তৈরি ও পরিচালনা করতে সাহায্য করে। প্রতিটি ক্লোন পায় নিজস্ব UUID, সুরক্ষিত ডেটা ডিরেক্টরি, আলাদা নোটিফিকেশন ও লক সুবিধা।</string>
+    <string name="about_engine_note">ক্লোনিং ইঞ্জিন অবস্থা: মডিউলার CloneEngine আর্কিটেকচার প্রস্তুত, যেখানে স্যান্ডবক্স ও ভার্চুয়ালাইজেশন ব্যাকএন্ড সহজেই যুক্ত করা যাবে।</string>
+
+    <string name="faq_q1">প্রতিটি ক্লোন কীভাবে আলাদা থাকে?</string>
+    <string name="faq_a1">প্রতিটি ক্লোন একটি ইউনিক UUID এবং নিজস্ব আলাদা ডেটা ও ক্যাশ ডিরেক্টরি পায়, ফলে লগইন সেশন, ক্যাশ ও সেটিংস মূল অ্যাপ বা অন্য ক্লোনের সাথে মিশে যায় না।</string>
+    <string name="faq_q2">ব্যাংকিং বা পেমেন্ট অ্যাপে সতর্কবার্তা দেখায় কেন?</string>
+    <string name="faq_a2">ব্যাংকিং, মোবাইল ওয়ালেট এবং DRM স্ট্রিমিং অ্যাপগুলো অতিরিক্ত নিরাপত্তার জন্য প্যাকেজ সিগনেচার ও Play Integrity যাচাই করে, তাই এগুলো ক্লোন পরিবেশে চলতে বাধা দিতে পারে।</string>
+    <string name="faq_q3">CloneX কি আমার কোনো ডেটা সার্ভারে পাঠায়?</string>
+    <string name="faq_a3">না। CloneX সম্পূর্ণ অফলাইনে আপনার ডিভাইসেই কাজ করে। আপনার ক্লোন তালিকা, সেটিংস বা কোনো অ্যাপ ডেটা ফোনের বাইরে যায় না।</string>
+    <string name="faq_q4">আমার ক্লোন সেটিংস কীভাবে ব্যাকআপ নেব?</string>
+    <string name="faq_a4">সেটিংস → ব্যাকআপ এক্সপোর্ট করুন (JSON) অপশনে গিয়ে নিরাপদে ফোনে ফাইল সংরক্ষণ করুন এবং প্রয়োজনে যেকোনো সময় ইমপোর্ট করুন।</string>
+    <string name="faq_q5">CloneX নিজেকে ক্লোন করা যায় না কেন?</string>
+    <string name="faq_a5">নিজেকে ক্লোন করলে পুনরাবৃত্ত লুপ ও নিরাপত্তা লকের দ্বন্দ্ব তৈরি হতে পারে, তাই CloneX নিজের প্যাকেজ ক্লোন করা বন্ধ রাখে।</string>
+
+    <string name="privacy_policy_title">CloneX গোপনীয়তা নীতি</string>
+    <string name="privacy_policy_body">কার্যকর তারিখ: নভেম্বর ২০২৬\n\n১. কোনো ডেটা সংগ্রহ নয়\nCloneX আপনার ব্যক্তিগত তথ্য, ইনস্টল করা অ্যাপের তালিকা, ব্যবহারের বিবরণ বা ক্লোন ডেটা কোনো বাহ্যিক সার্ভারে পাঠায় না বা বিক্রি করে না।\n\n২. সম্পূর্ণ ডিভাইস-ভিত্তিক সংরক্ষণ\nসব ক্লোনের তথ্য স্থানীয় Room ডেটাবেসে এবং সেটিংস Jetpack DataStore-এ সংরক্ষিত থাকে। ক্লোন ডিরেক্টরি আপনার ফোনের প্রাইভেট স্টোরেজেই সীমাবদ্ধ থাকে।\n\n৩. ন্যূনতম পারমিশন নীতি\n• ইনস্টল করা অ্যাপ তালিকা: শুধু ডিভাইসে ক্লোনযোগ্য অ্যাপ দেখানোর জন্য স্ট্যান্ডার্ড লঞ্চার কোয়েরি ব্যবহার হয়।\n• নোটিফিকেশন (Android 13+): আপনি চালু করলে কেবল ব্যাখ্যা দেখানোর পর অনুমতি চাওয়া হয়।\n• অটো-স্টার্ট: শুধুমাত্র আপনি সেটিংসে চালু করলে বুটের পর ক্লোন পুনরুদ্ধার করে।\n\n৪. সম্পূর্ণ নিয়ন্ত্রণ\nআপনি যেকোনো সময় ক্যাশ বা ডেটা মুছতে, JSON ব্যাকআপ নিতে অথবা অ্যাপ সম্পূর্ণ রিসেট করতে পারেন।</string>
+
+    <!-- Back Exit Confirmation -->
+    <string name="exit_confirm_title">CloneX থেকে বের হবেন?</string>
+    <string name="exit_confirm_body">আপনি কি নিশ্চিতভাবে CloneX বন্ধ করতে চান?</string>
+    <string name="exit_confirm_yes">বের হন</string>
+    <string name="exit_confirm_no">থাকুন</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="ok">ঠিক আছে</string>
+</resources>

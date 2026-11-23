@@ -1,0 +1,6 @@
+{
+  "name": "CloneX",
+  "description": "CloneX – App Cloner for creating and managing isolated app clones with per-clone settings, locks, and Bengali/English support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
